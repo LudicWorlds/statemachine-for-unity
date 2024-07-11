@@ -81,17 +81,17 @@ namespace LudicWorlds
 
         public void ClearStates()
         {
-            //Dispose of resources within each state
-            foreach( KeyValuePair<T,  IState<T>> state in states)
+            // Dispose of resources within each state
+            foreach (var state in states.Values)
             {
-                state.Value.Dispose();
+                state?.Dispose();
             }
+
+            // Clear the dictionary to remove all keys and values
+            states.Clear();
 
             currentState = null;
             prevState = null;
-
-            states.Clear();
-            states = null;
         }
     }
 }

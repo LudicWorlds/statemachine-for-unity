@@ -7,9 +7,6 @@ namespace LudicWorlds
         protected T id;
 		protected IStateMachine<T> stateMachine;
 
-		protected T nextStateId;
-		protected T prevStateId;
-
         protected Boolean isDisposed = false;
 
 
@@ -31,8 +28,6 @@ namespace LudicWorlds
         public virtual void Dispose()
         {
             id = default(T);
-            nextStateId = default(T);
-            prevStateId = default(T);
             stateMachine = null;
             isDisposed = true;
         }      
