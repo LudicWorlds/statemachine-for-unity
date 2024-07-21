@@ -47,4 +47,4 @@ This project is released under the CC0 License. Please read the [LICENSE](LICENS
 
 
 ## Disclaimer
-This project is provided "as is" without warranty of any kind. Use at your own risk. The authors are not responsible for any damage or data loss resulting from the use of this package. Compatibility and performance may vary depending on your system configuration.
+This project is provided "as is" without warranty of any kind. Use at your own risk. The author is not responsible for any damage or data loss resulting from the use of this package.
