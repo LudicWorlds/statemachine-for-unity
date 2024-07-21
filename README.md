@@ -10,10 +10,26 @@ This state machine implementation includes:
 
 
 ## Features
-- Easy to implement and extend.
-- Supports different types of states.
-- Manages state transitions and lifecycle.
-- Compatible with Unity's MonoBehaviour.
+- Easy to implement and extend
+- Supports different types of states
+- Manages state transitions and lifecycle
+- Compatible with Unity's MonoBehaviour
+
+
+## Installation
+
+To use this state machine in your Unity project:
+
+1. Download the latest release from the [Releases page](https://github.com/LudicWorlds/statemachine-for-unity/releases).
+2. Import the `StateMachineForUnity.unitypackage`:
+   - Go to **Assets > Import Package > Custom Package...**.
+   - Select the `StateMachineForUnity.unitypackage` file.
+   - In the Import Unity Package window, ensure all items are checked and click **Import**.
+
+
+## License
+
+This project is released under the CC0 License. Please read the [LICENSE](LICENSE) file for more details.
 
 
 ## Disclaimer
